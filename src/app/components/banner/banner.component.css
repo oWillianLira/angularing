@@ -1,0 +1,28 @@
+section.banner {
+  min-height: 475px;
+  display: flex;
+  position: relative;
+  background-color: var(--A-L);
+}
+section.banner::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 50%;
+  background-color: var(--A-R);
+}
+
+.title {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title h1 {
+  margin: 0;
+  font-weight: 500;
+  color: var(--bg);
+}

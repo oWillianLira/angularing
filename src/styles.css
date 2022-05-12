@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --text: #293241;
+  --bg: #efeffb;
+  --bg-contrast: #98c1d9;
+  --btn: #3d5a80;
+  --btn-contrast: #ee6c4d;
+  --matted: #e0fbfc;
+  --A-L: #dd0031;
+  --A-R: #c3002f;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: var(--bg);
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  color: var(--c-text);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+
+p {
+  margin: 0 0 10px;
+  font-size: 1rem;
+}
+
+small {
+  font-size: 0.75rem;
+}
+
+.container {
+  max-width: 95%;
+  width: 1440px;
+  flex: 1;
+  margin: 0 auto;
+  z-index: 1;
+}

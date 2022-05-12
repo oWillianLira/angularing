@@ -1,0 +1,23 @@
+mat-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--bg);
+  box-shadow: 0px 7px 20px rgba(43, 8, 37, 0.2);
+  z-index: 7;
+}
+
+mat-toolbar-row {
+  padding: 8px 16px;
+}
+
+span.spacer {
+  flex: 1 1 auto;
+}
+
+.header-logo h2 {
+  font-size: 1.5rem;
+  color: var(--A-R);
+  margin: 0;
+}
